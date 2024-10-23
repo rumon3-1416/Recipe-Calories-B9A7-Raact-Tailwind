@@ -4,12 +4,7 @@
     "recipe_image": "https://www.foodandwine.com/thmb/AITOI2byBUDcXHADQRPN8kgwhFs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Grilled-Chicken-Caprese-with-Basil-Oil-FT-RECIPE0823-22c0ea5fce514a1891f545428ef91fff.jpg",
     "recipe_name": "Grilled Chicken with Basil",
     "short_description": "A delicious and healthy grilled chicken served with fresh basil leaves.",
-    "ingredients": [
-      "550 g chicken",
-      "120 ml soy sauce",
-      "200 g basil leaf",
-      "400 g mushroom"
-    ],
+    "ingredients": ["550 g chicken", "120 ml soy sauce", "400 g mushroom"],
     "preparing_time": "30 min",
     "calories": "320 calories"
   },
@@ -21,8 +16,7 @@
     "ingredients": [
       "400 g spaghetti",
       "300 g ground beef",
-      "200 ml tomato sauce",
-      "100 g parmesan"
+      "200 ml tomato sauce"
     ],
     "preparing_time": "45 min",
     "calories": "500 calories"
@@ -32,12 +26,7 @@
     "recipe_image": "https://www.kikkoman.eu/fileadmin/_processed_/0/f/csm_1025-recipe-page-Spicy-tuna-and-salmon-rolls_desktop_b6172c0072.jpg",
     "recipe_name": "Salmon Sushi",
     "short_description": "Fresh salmon sushi with sticky rice and a hint of soy sauce.",
-    "ingredients": [
-      "300 g salmon",
-      "200 g sushi rice",
-      "50 ml soy sauce",
-      "30 g wasabi"
-    ],
+    "ingredients": ["300 g salmon", "200 g sushi rice", "50 ml soy sauce"],
     "preparing_time": "25 min",
     "calories": "250 calories"
   },
@@ -46,13 +35,7 @@
     "recipe_image": "https://i.pinimg.com/originals/1b/74/a0/1b74a01117b43c03c90d9b0d465eeae0.jpg",
     "recipe_name": "Mixed Vegetable Salad",
     "short_description": "A light and refreshing salad made with mixed greens and vegetables.",
-    "ingredients": [
-      "100 g lettuce",
-      "50 g spinach",
-      "50 g cucumber",
-      "50 g cherry tomatoes",
-      "30 ml olive oil"
-    ],
+    "ingredients": ["50 g spinach", "50 g cucumber", "50 g cherry tomatoes"],
     "preparing_time": "15 min",
     "calories": "150 calories"
   },
@@ -61,12 +44,7 @@
     "recipe_image": "https://arteflame.com/cdn/shop/articles/perfectly-grilled-beef-steak-arteflame.webp?v=1727908623",
     "recipe_name": "Grilled Beef Steak",
     "short_description": "Tender grilled beef steak with garlic butter and herbs.",
-    "ingredients": [
-      "400 g beef steak",
-      "50 g garlic",
-      "30 g butter",
-      "10 g rosemary"
-    ],
+    "ingredients": ["400 g beef steak", "50 g garlic", "30 g butter"],
     "preparing_time": "40 min",
     "calories": "600 calories"
   },
@@ -75,13 +53,7 @@
     "recipe_image": "https://images.immediate.co.uk/production/volatile/sites/30/2024/06/FluffyJapanesePancakes-e6d7773.jpg?quality=90&resize=556,505",
     "recipe_name": "Fluffy Pancakes",
     "short_description": "Soft and fluffy pancakes served with syrup and berries.",
-    "ingredients": [
-      "200 g flour",
-      "250 ml milk",
-      "2 eggs",
-      "50 g sugar",
-      "20 g butter"
-    ],
+    "ingredients": ["200 g flour", "2 eggs", "50 g sugar"],
     "preparing_time": "20 min",
     "calories": "350 calories"
   }

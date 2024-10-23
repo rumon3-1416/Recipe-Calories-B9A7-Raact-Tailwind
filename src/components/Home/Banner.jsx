@@ -18,11 +18,11 @@ const Banner = () => {
           dishes, and a cozy ambiance. Savor every bite at your favorite dining
           destination.
         </p>
-        <div className="flex gap-8">
-          <button className="bg-[#0BE58A] text-[#150B2B] text-xl font-semibold px-[30px] py-5 rounded-full">
+        <div className="flex items-center gap-8">
+          <button className="bg-[#0BE58A] text-[#150B2B] text-lg lg:text-xl font-semibold px-5 lg:px-[30px] py-3 lg:py-5 rounded-full hover:opacity-80">
             Explore Now
           </button>
-          <button className="text-white text-xl font-semibold px-[30px] py-5 border border-white rounded-full">
+          <button className="text-white text-lg lg:text-xl font-semibold px-5 lg:px-[30px] py-3 lg:py-5 border border-white rounded-full hover:bg-gray-300/30">
             Our Feedback
           </button>
         </div>
