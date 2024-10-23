@@ -14,8 +14,8 @@ const navLgClass = [
 ];
 
 const navSmClass = [
-  'text-[#150B2BB3]',
-  'bg-[#150B2B0D]',
+  'text-black',
+  'bg-[#ffffffcb]',
   'py-4',
   'rounded-xl',
   'absolute',
@@ -23,6 +23,7 @@ const navSmClass = [
   'md:top-[128px]',
   'right-0',
   'left-0',
+  'z-10',
   'hidden',
   'flex-col',
   'items-center',
