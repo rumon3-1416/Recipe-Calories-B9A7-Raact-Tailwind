@@ -17,7 +17,7 @@ const Card = ({ recipe }) => {
         {recipe.recipe_name}
       </h3>
 
-      <p className="text-[#878787] border-b-2 border-[#2828281A] py-4">
+      <p className="text-[#878787] fira-font border-b-2 border-[#2828281A] py-4">
         {recipe.short_description}
       </p>
 
@@ -25,7 +25,7 @@ const Card = ({ recipe }) => {
         Ingredients: {recipe.ingredients.length}
       </h4>
 
-      <ul className="text-[#878787] list-disc ps-6 border-b-2 border-[#2828281A] py-4">
+      <ul className="text-[#878787] fira-font list-disc ps-6 border-b-2 border-[#2828281A] py-4">
         {recipe.ingredients.map((rind, index) => (
           <li className="text-[#878787] text-lg leading-8" key={index}>
             {rind}
@@ -33,7 +33,7 @@ const Card = ({ recipe }) => {
         ))}
       </ul>
 
-      <div className="text-[#282828CC] py-6 flex items-center gap-4">
+      <div className="text-[#282828CC] fira-font py-6 flex items-center gap-4">
         <div className="flex items-center gap-2">
           <img className="size-[18px]" src={timeIcon} alt="time" />
           <p>{recipe.preparing_time}</p>
