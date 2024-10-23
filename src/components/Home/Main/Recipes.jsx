@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Card from './Card';
+import Recipe from './Recipe';
+import RecipeCalculator from './RecipeCalculator';
 
 const Recipes = () => {
   const [recipes, setRecipes] = useState([]);
@@ -34,11 +35,11 @@ const Recipes = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[6fr,_4fr] gap-3">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {recipes.map(rc => (
-            <Card key={rc.recipe_id} recipe={rc} />
+            <Recipe key={rc.recipe_id} recipe={rc} />
           ))}
         </div>
 
-        <div className="border border-black">want to cook</div>
+        <RecipeCalculator />
       </div>
     </section>
   );

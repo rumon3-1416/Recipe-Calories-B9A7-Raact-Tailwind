@@ -52,7 +52,7 @@ const Card = ({ recipe }) => {
 };
 
 Card.propTypes = {
-  recipe: PropTypes.object.isRequired,
+  recipe: PropTypes.object,
 };
 
 export default Card;
