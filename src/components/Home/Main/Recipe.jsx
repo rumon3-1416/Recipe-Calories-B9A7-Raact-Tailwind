@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import timeIcon from '../../../assets/Icons/time.png';
 import fireIcon from '../../../assets/Icons/trending-topic.png';
 
-const Card = ({ recipe }) => {
+const Card = ({ recipe, addWantCook }) => {
   return (
     <div className="p-6 border-2 border-[#28282833] rounded-2xl">
       <img
@@ -44,7 +44,10 @@ const Card = ({ recipe }) => {
         </div>
       </div>
 
-      <button className="bg-[#0BE58A] text-[#150B2B] text-lg font-medium px-6 py-3 rounded-full hover:opacity-80">
+      <button
+        onClick={() => addWantCook(recipe)}
+        className="bg-[#0BE58A] text-[#150B2B] text-lg font-medium px-6 py-3 rounded-full hover:opacity-80"
+      >
         Want to cook
       </button>
     </div>
@@ -53,6 +56,7 @@ const Card = ({ recipe }) => {
 
 Card.propTypes = {
   recipe: PropTypes.object,
+  addWantCook: PropTypes.func,
 };
 
 export default Card;
